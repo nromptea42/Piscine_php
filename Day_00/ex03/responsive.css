@@ -1,0 +1,43 @@
+H1 {color: black;
+	font-family: "Courier New";
+	text-align: center;}
+
+p {color: black;
+	text-align: right;
+	font-family: "Courier New";
+	font-style: italic;}
+
+body {background-color: #d0e4fe;}
+
+img {height : auto;
+	width : 100%;}
+
+table {border-collapse: collapse;
+	width: 100%;}
+
+td {border: 1px solid black;
+	height: 60px;}
+
+.none {border: none;}
+
+.name {text-align: center;
+	font-size: 2vw;}
+
+.num {text-align: left;
+	font-size: 1vw;}
+
+.masse {text-align: right;
+	font-size: 1vw;}
+
+.blue{background-color: 9966FF;}
+.cyan{background-color: 33CCFF;}
+.pink{background-color: FF66FF;}
+.grey{background-color: 808080;}
+.green{background-color: 33FF99;}
+.orange{background-color: FF9966;}
+.braun{background-color: CC6633;}
+.yellow{background-color: FFCC33;}
+.bot{background-color: 99CC66;}
+.botbot{background-color: 00FF66;}
+.mid{background-color: FFFF99;}
+

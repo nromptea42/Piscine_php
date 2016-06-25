@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<title>Balloon</title>
+		<style>
+			.balloon {
+				background-color: red;
+				height: 200px;
+				width: 200px;
+				margin-left: auto;
+				margin-right: auto;
+				border-radius: 200em;
+				transition: all 0.5s;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="balloon" onclick="inflate()" onmouseleave="deflate()"></div>
+		<script type="text/javascript">
+			function inflate()
+			{
+				var coef = document.getElementsByClassName('balloon');
+				coef = coef[0].style;
+				if (parseInt(coef.width) >= 200) {
+					if (parseInt(coef.width) < 420) {
+						coef.width = parseInt(coef.width) + 10;
+						coef.width += "px";
+						coef.height = parseInt(coef.height) + 10;
+						coef.height += "px";
+					}
+					else
+					{
+						coef.width = "200px";
+						coef.height = "200px";
+					}					
+					if (coef['background-color'] == "red")
+						coef['background-color'] = "blue";
+					else if (coef['background-color'] == "blue")
+						coef['background-color'] = "green";
+					else if (coef['background-color'] == "green")
+						coef['background-color'] = "red";
+				}
+				else {
+					coef['background-color'] = "blue";
+					coef.width = "210px";
+					coef.height = "210px";
+				}
+			}
+
+			function deflate()
+			{
+				var coef = document.getElementsByClassName('balloon');
+				coef = coef[0].style;
+				if (parseInt(coef.width) < 420) {
+					if (parseInt(coef.width) > 200) {
+						coef.width = parseInt(coef.width) - 5;
+						coef.width += "px";
+						coef.height = parseInt(coef.height) - 5;
+						coef.height += "px";
+					}
+					else
+					{
+						coef.width = "200px";
+						coef.height = "200px";
+					}					
+					if (coef['background-color'] == "red")
+						coef['background-color'] = "green";
+					else if (coef['background-color'] == "blue")
+						coef['background-color'] = "red";
+					else if (coef['background-color'] == "green")
+						coef['background-color'] = "blue";
+				}
+				else {
+					coef['background-color'] = "blue";
+					coef.width = "210px";
+					coef.height = "210px";
+				}
+			}
+		</script>
+	</body>
+</html>

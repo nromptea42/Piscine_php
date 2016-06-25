@@ -1,0 +1,126 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #e2e2e2;
+}
+
+.mess {
+  margin:auto;
+  border-radius: 3px;
+  padding: 20px;
+  width: 50%;
+  color: white;
+}
+
+.error {
+  background-color: #d65959;
+}
+
+.success {
+  background-color: #59d67f;
+}
+
+header {
+  margin: 0;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+.content {
+  padding: 20px;
+  margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.form-style-4 {
+    margin:auto;
+    width: 450px;
+    font-size: 16px;
+    padding: 50px;
+}
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button],
+.form-style-4 input[type=text],
+.form-style-4 input[type=number],
+.form-style-4 input[type=email],
+.form-style-4 textarea,
+.form-style-4 label
+{
+    font-size: 20px;
+    color: #505050;
+
+}
+.form-style-4 label {
+    display:block;
+    margin-bottom: 10px;
+}
+.form-style-4 label > span{
+    display: inline-block;
+    float: left;
+    width: 150px;
+}
+.form-style-4 input[type=text],
+.form-style-4 input[type=email],
+.form-style-4 input[type=number]
+{
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed white;
+    width: 275px;
+    outline: none;
+    padding: 2px;
+}
+
+.form-style-4 input[type=text]:focus,
+.form-style-4 input[type=email]:focus,
+.form-style-4 input[type=number]:focus,
+.form-style-4 input[type=email] :focus
+{
+    border-bottom: 1px dashed green;
+}
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button]{
+    background: #59d691;
+    border: none;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    color: white;
+}
+.form-style-4 input[type=submit]:hover,
+.form-style-4 input[type=button]:hover {
+  background: #369862;
+}

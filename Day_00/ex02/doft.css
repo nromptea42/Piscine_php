@@ -1,0 +1,181 @@
+p {
+	color: black;
+	text-align: right;
+	font-family: "Courier New";
+	font-style: italic;
+}
+
+body {
+	background-color: #505050;
+}
+
+.border {
+		border-radius: 1em;
+		box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+		height: 150px;
+		background-color: #909090;
+}
+
+.right {
+	text-align: right;
+}
+
+.top {
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 20px;
+}
+
+.left {
+	height: 400px;
+	width: 150px;
+	margin-left:225px;
+	display: inline-block;
+}
+
+.center {
+	height: 600px;
+	width: 900px;
+	margin-left: 20px;
+	display: inline-block;
+	margin-top : 20px;
+}
+
+.cluster {
+	height: 575px;
+	width: 875px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.droite {
+	height: 400px;
+	width: 150px;
+	margin-left:20px;
+	display: inline-block;
+}
+
+.day {
+	height: 75%;
+	margin-top: 20px;
+}
+
+.loupe {
+	margin-top: -105px;
+	margin-right: 50px;
+}
+
+.close {
+	height: 25px;
+	width: 25px;
+	margin-top: -50px;
+	margin-right: 10px;
+}
+
+.reload {
+	height: 25px;
+	width: 25px;
+	margin-top: -160px;
+	margin-right: 10px;
+}
+
+.arrow {
+	width: 70px;
+	height: 70px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.main {
+	width: 70px;
+	height: 70px;	
+	margin-left: 30px;
+}
+.oeil {
+	width: 70px;
+	height: 70px;
+	margin-left: 30px;
+	border: 4px solid red;
+	border-radius: 0.4em;
+}
+
+.outil {
+	width: 70px;
+	height: 70px;
+	margin-left: 30px;
+}
+
+.chat {
+	width: 70px;
+	height: 70px;
+	margin-left: 30px;
+}
+
+.book {
+	width: 65px;
+	height: 90px;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+.towel {
+	width: 75px;
+	height: 75px;
+	display: block;
+	margin-top: 15px;
+	margin-left: 35px;
+}
+
+.brick {
+	width: 125px;
+	height: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("resources/brick.jpg");
+}
+
+
+.border_bis {
+		border-radius: 1em;
+		box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+		height: 200px;
+		background-color: #8CFD8E;
+		position: absolute;
+		width: 500px;
+		height: 175px;
+		margin-left: 200px;
+		margin-top: -50px;
+}
+
+.text_1 {
+	font-family: "Helvetica";
+	font-size: 16;
+	margin-left: 10px;
+	margin-top:20px;
+}
+
+.text_2 {
+	font-family: "PT Serif Caption";
+	font-size: 30;
+}
+
+.text_3 {
+	font-family: "Helvetica"
+	font-size: 16;
+	text-shadow: 7px 7px 8px rgba(255, 0, 0, 1);
+}
+
+.text_4 {
+	font-family: "Helvetica"
+	font-size: 16;
+	font-style: italic;
+}
+
+#bar {
+	width: 350px;
+}
+
+.button {
+	width: 75px;
+	border-radius: 0px;
+}
